@@ -64,44 +64,7 @@
 .highlight .gd { color: #f92672; } /* Generic.Deleted & Diff Deleted */
 .highlight .gi { color: #a6e22e; } /* Generic.Inserted & Diff Inserted */
 
-div.cursor {
-  display: inline-block;
-  background: #fff;
-  margin-left: 1px;
-
-  -webkit-animation: blink 2s linear 0s infinite;
-  -moz-animation: blink 2s linear 0s infinite;
-  -ms-animation: blink 2s linear 0s infinite;
-  -o-animation: blink 2s linear 0s infinite;
-}
-@-webkit-keyframes blink {
-  0%   { background: #0a0 }
-  47%  { background: #090 }
-  50%  { background: #000 }
-  97%  { background: #000 }
-  100% { background: #090 }
-}
-
-@-moz-keyframes blink {
-  0%   { background: #0a0 }
-  47%  { background: #090 }
-  50%  { background: #000 }
-  97%  { background: #000 }
-  100% { background: #090 }
-}
-
-@-ms-keyframes blink {
-  0%   { background: #0a0 }
-  47%  { background: #090 }
-  50%  { background: #000 }
-  97%  { background: #000 }
-  100% { background: #090 }
-}
-
-@-o-keyframes blink {
-  0%   { background: #0a0 }
-  47%  { background: #090 }
-  50%  { background: #000 }
-  97%  { background: #000 }
-  100% { background: #090 }
-}
+a:link    { color: #e6db74 }  /* unvisited links */
+a:visited { color: #e6db74 }  /* visited links   */
+a:hover   { color: #f8f8f2 }  /* user hovers     */
+a:active  { color: #f8f8f2 }  /* active links    */
