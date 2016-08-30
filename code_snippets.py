@@ -25,7 +25,7 @@ def projects(github='haydentherapper'):
 def work_experience():
     """My work"""
     jobs = {}
-    jobs['Microsoft'] = ('Software Engineer for Yammer', 'Starting in August')
+    jobs['Microsoft'] = ('Software Engineer for Yammer', 'Current')
     jobs['Praetorian'] = ('Security Engineer', 'Summer 2014 and Summer 2015')
     jobs['Harvey Mudd'] = ('Undergraduate Researcher', 'Summer 2013')
     what_I_did = {}
